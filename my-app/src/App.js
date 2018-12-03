@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter } from "react-router-dom";
+import { withRouter } from 'react-router'
+import './index.css';
+import Navbar from './components/navbar'
+import Header from './components/header'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        
-      </div>
+      <React.Fragment>  
+        <Navbar />
+        <Header />
+      </React.Fragment>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
