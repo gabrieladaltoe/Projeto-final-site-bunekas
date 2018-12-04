@@ -1,0 +1,87 @@
+.section-voluntario__gray{
+    background-color: #f3f3f3;
+    height: 520px;
+}
+.section-voluntarios__box{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-voluntarios__title{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #E64787;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 15px 0 0 0;
+
+}
+
+.section-voluntarios__box-img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 25px;
+}
+
+.img-voluntarios{
+    width: 100%;
+    border:7px solid #fff;
+    box-shadow: -4px 4px 19px #6e6d6d;
+}
+
+.foto-voluntarios1{
+    transform: rotate(-10deg);
+}
+
+.foto-voluntarios2{
+    transform: rotate(5deg);
+}
+
+.foto-voluntarios3{
+    transform: rotate(-5deg);
+    position: absolute;
+    top: 170px;
+    left: 185px;
+}
+
+.foto-voluntarios4{
+    transform: rotate(8deg);
+    position: absolute;
+    top: 175px;
+    left: 400px;
+}
+
+.section-voluntarios__text{
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    font-size: 0.85rem;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    color: #6e6d6d;
+}
+
+.section-voluntarios__list{
+    margin-left: 0px;
+}
+
+
+
+.section-voluntarios__itens{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #6e6d6d;
+}
+.mapa-img{
+    width: 275px;
+}

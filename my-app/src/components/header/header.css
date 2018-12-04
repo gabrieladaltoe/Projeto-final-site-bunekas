@@ -1,8 +1,9 @@
 .header{
     display: flex;
     fill: rgba(225, 32, 133, .5);
-    background-image: url("../../img/meninas-afrika.jpg");
-    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .8) 75%, #161616 100%), url(../../img/header-2.jpg);
+    /* background-image: url("../../img/meninas-afrika.jpg"); */
+    height: 450px;
     width: 100vw;
     margin: 0 auto;
     background-size: cover;
@@ -22,7 +23,7 @@
 
 .header__title {
     font-family: 'Amatic SC', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0; 
 }
 
@@ -31,7 +32,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
-    font-weight: 400;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 

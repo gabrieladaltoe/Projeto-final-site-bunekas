@@ -4,6 +4,8 @@ import { withRouter } from 'react-router'
 import './index.css';
 import Navbar from './components/navbar'
 import Header from './components/header'
+import Bonecas from './components/sectionbonecas'
+import Voluntarios from './components/sectionvoluntarios'
 
 class App extends Component {
   render() {
@@ -11,6 +13,8 @@ class App extends Component {
       <React.Fragment>  
         <Navbar />
         <Header />
+        <Bonecas />
+        <Voluntarios></Voluntarios>
       </React.Fragment>
     );
   }

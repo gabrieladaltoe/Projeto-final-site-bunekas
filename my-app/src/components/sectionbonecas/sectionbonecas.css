@@ -1,0 +1,64 @@
+.section-title{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin: 0 auto; 
+    color: #E64787;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    /* padding: 30px 0; */
+}
+
+.box-intro{
+    background-image: linear-gradient(to left, #f73152,#e21299);
+}
+
+.section-description{
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    font-size: 0.85rem;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.box-text {
+    width: 170px;
+    margin: 15px 0;
+}
+
+.infografico-boneka{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.boneca-principal{
+    margin: 0 30px 30px 30px;
+}
+
+.alinha-direita{
+    text-align: right;
+    border-right: 1px solid #E64787;
+    padding: 0 10px;
+
+}
+
+.alinha-esquerda{
+    text-align: left;
+    border-left: 1px solid #E64787;
+    padding: 0 10px;
+
+}
