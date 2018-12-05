@@ -1,14 +1,13 @@
 .header{
     display: flex;
-    fill: rgba(225, 32, 133, .5);
-    background-image: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .8) 75%, #161616 100%), url(../../img/header-2.jpg);
-    /* background-image: url("../../img/meninas-afrika.jpg"); */
-    height: 450px;
-    width: 100vw;
-    margin: 0 auto;
+    fill: rgba(225, 32, 133, .5); 
+    background-image: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .8) 75%, #161616 100%), url(/static/media/header-2.ecd5bcc0.jpg);
+    height: 450px; 
+    /* width: 100vw;  */
+    margin: 0 auto; 
     background-size: cover;
-    background-position: center; 
-}
+    background-position: center;
+} 
 
 .header__text-box{
     display: flex;

@@ -13,18 +13,18 @@
 
 .box-intro{
     background-image: linear-gradient(to left, #f73152,#e21299);
-}
+    margin: 0 auto;
+    padding: 30px 20%;
+    }
 
 .section-description{
     font-family: 'Roboto', sans-serif;
-    width: 700px;
-    font-size: 0.85rem;
+    font-size: 0.92rem;
     font-weight: 100;
     line-height: 1.5;
-    margin: 0 auto;
     text-align: center;
-    padding: 30px;
     color: #fff;
+    margin: 0 auto;
 }
 
 .box-text {

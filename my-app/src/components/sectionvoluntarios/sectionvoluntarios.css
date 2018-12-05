@@ -5,8 +5,9 @@
 .section-voluntarios__box{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .section-voluntarios__title{
@@ -30,7 +31,7 @@
 }
 
 .img-voluntarios{
-    width: 100%;
+    width: 210px;
     border:7px solid #fff;
     box-shadow: -4px 4px 19px #6e6d6d;
 }
@@ -59,7 +60,7 @@
 
 .section-voluntarios__text{
     font-family: 'Roboto', sans-serif;
-    width: 700px;
+    /* width: 700px; */
     font-size: 0.85rem;
     font-weight: 100;
     line-height: 1.5;
@@ -72,8 +73,6 @@
     margin-left: 0px;
 }
 
-
-
 .section-voluntarios__itens{
     font-family: 'Roboto', sans-serif;
     width: 300px;
@@ -83,5 +82,5 @@
     color: #6e6d6d;
 }
 .mapa-img{
-    width: 275px;
+    width: 315px;
 }

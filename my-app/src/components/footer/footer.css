@@ -1,0 +1,55 @@
+.footer__box{
+    background-image: linear-gradient(to left, #A3195B,#f73152,#e21299);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer__logo{
+    width: auto;
+    height: 65px;
+}
+
+.title_form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.92rem;
+    color: #fff;
+    font-weight: 100;
+    margin:0 0 10px 0;
+}
+
+.form__input{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 3px;
+    margin: 0 7px 0 0;
+    color: #777777;
+}
+
+.form__btn-submit{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 8px;
+    margin: 0;
+    color: #ffffff;
+    background-color: #252525;
+    box-shadow: 0px 0px 10px rgb(133, 15, 72);
+}
+
+.form__btn-submit:hover{
+    color: #fff;
+    background-color:  rgb(87, 4, 44);
+    box-shadow: 0px 0px 10px rgb(51, 3, 26);
+}
+.icon__list{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon__item{
+    width: 28px;
+}
+

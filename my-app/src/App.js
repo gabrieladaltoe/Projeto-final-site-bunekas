@@ -6,6 +6,7 @@ import Navbar from './components/navbar'
 import Header from './components/header'
 import Bonecas from './components/sectionbonecas'
 import Voluntarios from './components/sectionvoluntarios'
+import Footer from './components/footer'
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
         <Navbar />
         <Header />
         <Bonecas />
-        <Voluntarios></Voluntarios>
+        <Voluntarios />
+        <Footer />
       </React.Fragment>
     );
   }
