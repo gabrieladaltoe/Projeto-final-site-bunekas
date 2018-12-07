@@ -9,7 +9,7 @@ import email from '../../img/mail-icon.png'
 class Footer extends React.Component {
     render() {
         return (
-            <div className="footer__box">
+            <div className="footer__box" id="footer">
                 <div>
                     <img src={logo} alt="logo projeto bunekas" className="footer__logo" />
                 </div>

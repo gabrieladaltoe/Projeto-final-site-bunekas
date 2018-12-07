@@ -1,6 +1,8 @@
 import React from "react"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './menu.css'
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 class Menu extends React.Component {
@@ -26,9 +28,9 @@ class Menu extends React.Component {
             <div>
                <a  className={classesOfButton} onClick={this.handleOpenOrClose}>Menu</a>
                <ul className={classesOfOptions}>
-                   <li><Link to='/bunekas' onClick={this.handleOpenOrClose}>A Buneka</Link></li>
-                   <li><Link to='./voluntarios' onClick={this.handleOpenOrClose}>Voluntários</Link></li>
-                   <li><Link to='/contato' onClick={this.handleOpenOrClose}>Contato</Link></li>
+                   <li><Link to='/some/path/#secao-bonekas' onClick={this.handleOpenOrClose}>A Buneka</Link></li>
+                   <li><Link to='/some/path#secao-voluntarios' onClick={this.handleOpenOrClose}>Voluntários</Link></li>
+                   <li><Link to='/some/path#footer' onClick={this.handleOpenOrClose}>Contato</Link></li>
                </ul>
             </div>
         )

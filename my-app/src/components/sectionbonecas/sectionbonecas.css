@@ -7,7 +7,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 15px 0;
+    margin: 78px 0 15px 0;
     /* padding: 30px 0; */
 }
 
@@ -27,11 +27,20 @@
     margin: 0 auto;
 }
 
+.bonecas_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .box-text {
     width: 170px;
     margin: 15px 0;
+    opacity: 0.5;
 }
 
+.box-text:hover {
+    opacity: 1;
+}
 .infografico-boneka{
     display: flex;
     flex-direction: row;
@@ -45,9 +54,7 @@
     flex-direction: column;
 }
 
-.boneca-principal{
-    margin: 0 30px 30px 30px;
-}
+
 
 .alinha-direita{
     text-align: right;
@@ -60,5 +67,89 @@
     text-align: left;
     border-left: 1px solid #E64787;
     padding: 0 10px;
+}
 
+.mobile-flex{
+    display: none;
+}
+
+.bonecas{
+    position: relative;
+}
+.boneca-principal{
+    margin: 0 30px 30px 30px;
+}
+
+.boneca--hidden {
+    visibility: hidden;
+}
+
+.boneca-cabelo{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+.boneca-expressao{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+
+}
+.boneca-tecido{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+.boneca-vestido{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+.boneca-sapato{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+.boneca-calcinha{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+.boneca-turbante{
+    position: absolute;
+    margin: 0 30px 30px 30px;
+}
+
+@media (max-width:425px){
+    .bonecas{
+        display: none;
+    }
+    .infografico-boneka{
+flex-wrap: wrap;    }
+    .mobile-flex{
+        display: flex;
+        height: 224px;
+        margin-right: 10px;
+
+    }
+    .alinha-direita{
+        border-right: 0;
+        border-left: 1px solid #e21299;
+        text-align: left;
+    }
+    .alinha-esquerda{
+        text-align: left;
+        border-left: 1px solid #E64787;
+        /* padding: 3px 10px; */
+        left: 250px;
+        margin-left: 149px;
+    }
+    .box-text {
+        width: 170px;
+        margin: 15px 0;
+        opacity: 1;
+    }
+    .box-direito{
+        margin-left: 147px;
+    }
+}
+
+@media (max-width:320px){
+    .box-direito {
+        margin-left: 0px;
+    }
 }

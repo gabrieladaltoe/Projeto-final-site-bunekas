@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import Cta from '../cta'
 
 
 const Header = () => (
@@ -11,6 +12,7 @@ const Header = () => (
             <h3 className='header__text'>
                 O Projeto Bunekas incentiva o brincar e promove a autoestima de crianças africanas por meio de bonecas e vestidos confeccionados por voluntárias. 
             </h3>
+            <Cta />
         </div>
     </header>
 )

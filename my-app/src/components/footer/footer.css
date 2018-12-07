@@ -53,3 +53,23 @@
     width: 28px;
 }
 
+@media (max-width:425px){
+    .footer__box{
+        flex-direction: column;
+    }
+    .footer__right-elements{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+    .form__input{
+        margin-bottom: 5px;
+    }
+    
+    
+}
+
+

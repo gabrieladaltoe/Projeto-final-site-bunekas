@@ -13,7 +13,7 @@ import Voluntarios4 from '../../img/vol4.jpg'
 class Voluntarios extends React.Component {
     render() {
         return (
-            <section className="section-voluntario__gray">
+            <section className="section-voluntario__gray" id="secao-voluntarios">
                 <h2 className="section-voluntarios__title">Voluntários</h2>
                 <p className='section-voluntarios__text'>
                     Desde o início do Projeto são organizadas oficinas em todo o país para voluntárias. Atualmente há grupos de bunekeiras em:
@@ -35,7 +35,7 @@ class Voluntarios extends React.Component {
                             <li className='section-voluntarios__itens'>Três Lagoas (MT)</li>
                             <li className='section-voluntarios__itens'>Rio de Janeiro e Nova Friburgo (RJ)</li>
                         </ul>
-                        <div>
+                        <div className="mapa-area">
                             <img src={Mapa} alt="mapa do Brasil" className="mapa-img" />
                         </div>
                     </div>
